@@ -1,0 +1,160 @@
+{
+    
+    padding: 14px 16px;
+    box-sizing: border-box;
+    right-margin: 200px;
+}
+
+/* Basic styling for the menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Background color of the menu */
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+nav li {
+    float: right;
+}
+
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: rubik;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+}
+
+nav a:hover {
+    color: rgb(183, 184, 241);
+    border-bottom: 4px solid rgb(183, 184, 241); /* Adjust the thickness and color as needed */
+}
+
+.logo{
+    position: absolute;
+    padding: 14px 16px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+   font-family: rubik; 
+   font-size: 18px;
+}
+
+h6{
+   font-family: rubik; 
+   font-size: 16px;
+   margin-top: -2px;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 14px 16px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.column h1 {
+    margin-bottom: 16px;
+    font-family: Petrona;
+    font-size: 62px;
+}
+
+.column button {
+    display: block;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: -20px;
+    align-items: left;
+    margin-left: -60px;
+
+}
+
+.primary-button,
+.secondary-button {
+    padding: 14px 42px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: -8px;
+    display: flex;
+    align-items: center; /* Center the image and text vertically */
+    font-size: 18px;
+    font-family: rubik;
+}
+
+.primary-button img,
+.secondary-button img {
+    margin-right: 8px; /* Add space between the image and text, adjust as needed */
+    margin-left: -4px;
+    margin-bottom: -8px;
+    max-width: 30px; /* Set a maximum width for the icon */
+    max-height: 30px; /* Set a maximum height for the icon */
+    color: #ffffff;
+    
+}
+
+.primary-button {
+    background-color: rgb(183, 184, 241);
+    color: rgb(0, 0, 0), 0, 0);
+    border: 3px solid rgb(183, 184, 241);
+}
+
+.secondary-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0), 0, 0);
+    border: 3px solid rgb(183, 184, 241);
+}
+
+.primary-button:hover {
+    background-color: rgb(136, 137, 205);
+    border: 3px solid rgb(136, 137, 205);
+}
+
+.secondary-button:hover {
+    background-color: rgb(213, 213, 242);
+    border: 3px solid rgb(213, 213, 242);
+}
+
+.tab-container {
+    display: flex; /* Use flexbox to align tabs horizontally */margin-bottom: 20px;
+   margin-left: 100px;
+   padding: 16px 32px;
+  
+}
+
+.tab{
+    margin-right: 40px;
+    font-family: rubik;
+    font-weight: bold;}
+
+    h1{
+
+        font-family: petrona;
+        font-size: 42px;
+    }
