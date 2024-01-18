@@ -2,7 +2,7 @@
     
     padding: 14px 16px;
     box-sizing: border-box;
-    right-margin: 200px;
+    right-margin: 100px;
 }
 
 /* Basic styling for the menu */
@@ -57,7 +57,8 @@ p{
 h6{
    font-family: rubik; 
    font-size: 16px;
-   margin-top: -2px;
+   margin-top: 8px;
+   margin-bottom: 12px;
 }
 
 .container {
@@ -129,6 +130,7 @@ h6{
     background-color: #ffffff;
     color: rgb(0, 0, 0), 0, 0);
     border: 3px solid rgb(183, 184, 241);
+    margin-top: 32px;
 }
 
 .primary-button:hover {
@@ -144,39 +146,40 @@ h6{
 .container2{
 margin-top: 72px;
 margin-left: 100px;
-
-
+padding: 14px 16px;
 
 }
 
 
 .tab-container {
-    display: flex; /* Use flexbox to align tabs horizontally */margin-bottom: 100px;
-   padding: 16px 32px;
-   display: inline;
+    display: flex; /* Use flexbox to align tabs horizontally */margin-bottom: 20px;
   
 }
 
 .tab{
-    margin-right: 40px;
+    margin-right: 20px;
     font-family: rubik;
     font-weight: bold;
     border: 3px solid rgb(213, 213, 242);
     border-radius: 8px;
     padding: 12px 18px;
-    margin-bottom: 10px;
-    align-items: left;
+    margin-bottom: 8px;
+   
 
 }
 
-    h1{
+ h1{
 
         font-family: petrona;
         font-size: 42px;
-        display:inline-block;
-
-    }
+        margin-bottom: -8px;
+ }
 
     .tab:hover{
         color: rgb(183, 184, 241);
     }
+
+p{
+
+
+}
