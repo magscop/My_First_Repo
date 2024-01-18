@@ -141,20 +141,42 @@ h6{
     border: 3px solid rgb(213, 213, 242);
 }
 
+.container2{
+margin-top: 72px;
+margin-left: 100px;
+
+
+
+}
+
+
 .tab-container {
-    display: flex; /* Use flexbox to align tabs horizontally */margin-bottom: 20px;
-   margin-left: 100px;
+    display: flex; /* Use flexbox to align tabs horizontally */margin-bottom: 100px;
    padding: 16px 32px;
+   display: inline;
   
 }
 
 .tab{
     margin-right: 40px;
     font-family: rubik;
-    font-weight: bold;}
+    font-weight: bold;
+    border: 3px solid rgb(213, 213, 242);
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    align-items: left;
+
+}
 
     h1{
 
         font-family: petrona;
         font-size: 42px;
+        display:inline-block;
+
+    }
+
+    .tab:hover{
+        color: rgb(183, 184, 241);
     }
