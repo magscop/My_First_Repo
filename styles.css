@@ -158,3 +158,31 @@ p {
     border-color: #E3E4FF;
 
 }
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+   
+}
+
+
+.logo-img{
+    width: 100px;
+}
+
+.footer-column{
+    align-items:center;
+}
+
+.footer-column-2{
+    display: block;
+    align-items: center;
+
+}
+
+.custom-list {
+    display: block;
+    align-items: baseline;
+}
